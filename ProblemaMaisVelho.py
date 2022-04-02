@@ -14,4 +14,5 @@ for i in range(0, N, 1):
 	if idade[i] > soma:
 		soma = idade[i]
 		nom = nome[i]
+
 print(f"PESSOA MAIS VELHA: {nom}")
