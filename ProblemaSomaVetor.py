@@ -15,4 +15,4 @@ media = soma / N
 print(f"\nSOMA = {soma:.2f}")
 print(f"MEDIA = {soma/N:.2f}")
 
-
+#
