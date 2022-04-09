@@ -14,5 +14,3 @@ for i in range(0, N, 1):
 media = soma / N
 print(f"\nSOMA = {soma:.2f}")
 print(f"MEDIA = {soma/N:.2f}")
-
-#
