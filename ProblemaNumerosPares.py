@@ -1,16 +1,6 @@
-N = int(input("Quantos numeros voce vai digitar? "))
+nome = "Guilherme"
 
-num: [int] = [0 for x in range(N)]
+print(nome.upper())
 
-for i in range(0, N, 1):
-    num[i] = int(input("Digite um numero: "))
+#Ver as funções no fim da aula 6
 
-print("\nNUMEROS PARES:")
-
-soma = 0
-for i in range(0, N, 1):
-    if num[i] % 2 == 0:
-        print(f"{num[i]} ", end="")
-        soma = soma + 1
-
-print(f"\n\nQUANTIDADE DE PARES = {soma}")
